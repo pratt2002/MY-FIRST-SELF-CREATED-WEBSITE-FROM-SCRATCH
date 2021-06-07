@@ -1,0 +1,163 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+line-height: 1.6em;
+padding: 0%;
+margin: 0%;
+background-color: azure;
+
+
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background-color: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: red 3px solid;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-decoration: uppercase;
+    font-size: 16px;
+}
+a:hover{
+    color: tomato;
+}
+header ul{
+    margin: 0%;
+    padding:0%;
+}
+header li{
+float:right;
+display: inline;
+    padding: 0px 20px 0px 20px;
+}
+header #branding{
+    float: center;
+
+}
+header #branding h1{
+    margin: 0px;
+}
+
+#SHOWCASE {
+    min-height: 200px;
+    min-width: 500px;
+    background: url(./image/showcase.jpg)  ;
+    text-align:center;
+    color: ivory;
+
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+
+}
+#newsletter
+{
+    padding: 15px;
+    color: lawngreen;
+    background: #35424a;
+
+}
+#newsletter h1
+{
+    float: left;
+
+}
+#newsletter form
+{
+    float:right ;
+    margin-top: 15px;
+
+}
+#newsletter input[type = "email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button_1 {
+    height: 30px;
+    background: green;
+    border:0;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px};
+
+
+    #box{
+        margin-top: 20px;
+
+    }
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clear floats after image containers */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      @media screen and (max-width: 500px) {
+        .column {
+          width: 100%;
+        }
+      }
+aside #sidebar
+{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+
+}
+article #main-col
+{
+    float: right;
+    width: 65%;
+
+}
+.dark
+{
+    float: right;
+    padding: 15px;
+    background:grey;
+    color: linen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ footer
+    {
+    padding: 20px;
+    margin-top: 20px;
+    color: crimson;    
+    background-color: #35424a;
+    text-align: center;
+    }
+
+.page-tittle 
+{
+    color : black;
+    font-family: fantasy;
+    font-size: large;
+    background:grey;
+    text-align:  center;
+}
+ .container p{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 10px;
+ }
