@@ -13,6 +13,7 @@ background-color: azure;
     width: 100%;
     margin: auto;
     overflow: hidden;
+    
 }
 
 header{
@@ -51,7 +52,7 @@ header #branding h1{
 
 #SHOWCASE {
     min-height: 200px;
-    min-width: 500px;
+    min-width: 200px;
     background: url(./showcase.jpg)  ;
     text-align:center;
     color: ivory;
