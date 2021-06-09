@@ -113,7 +113,7 @@ header #branding h1{
         clear: both;
         display: table;
       }
-      @media screen and (max-width: 500px) {
+      @media screen and (max-device-width: 500px) {
         .column {
           width: 100%;
         }
