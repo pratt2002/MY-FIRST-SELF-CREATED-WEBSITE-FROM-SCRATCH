@@ -21,6 +21,7 @@ header{
     padding-top: 30px;
     min-height: 70px;
     border-bottom: red 3px solid;
+    width:100%;
 }
 header a{
     color: #fff;
@@ -65,36 +66,7 @@ header #branding h1{
     font-size: 20px;
 
 }
-#newsletter
-{
-    padding: 15px;
-    color: lawngreen;
-    background: #35424a;
 
-}
-#newsletter h1
-{
-    float: left;
-
-}
-#newsletter form
-{
-    float:right ;
-    margin-top: 15px;
-
-}
-#newsletter input[type = "email"] {
-    padding: 4px;
-    height: 25px;
-    width: 250px;
-}
-.button_1 {
-    height: 30px;
-    background: green;
-    border:0;
-    color: white;
-    padding-right: 10px;
-    padding-left: 10px};
 
 
     #box{
@@ -147,6 +119,7 @@ article #main-col
     color: crimson;    
     background-color: #35424a;
     text-align: center;
+        width= 100%;
     }
 
 .page-tittle 
